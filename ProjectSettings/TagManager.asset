@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Arena
   layers:
   - Default
   - TransparentFX
@@ -13,10 +14,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Arena
+  - Arena Bounds
+  - Player
+  - Ball
   - 
   - 
   - 
@@ -40,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Arena
+    uniqueID: 2208620631
+    locked: 0
+  - name: Arena Bounds
+    uniqueID: 1673961061
+    locked: 0
+  - name: Players and Ball
+    uniqueID: 3513603631
     locked: 0
